@@ -1,63 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="container">
-        <div class="section_nav">
-            <div class="left_nav d-flex align-items-center">
-                <div class="section-logo d-flex align-items-center">
-                    <div class="image-logo">
-                        <img src="logo.jpg" >
-                    </div>
-                    <h3 class="text">SandBox</h3>
-                </div>
+    <header class="header-container">
+        <div class="section-nav">
+            <div class="logo-nav">
+                <a href="#">Learning</a>
             </div>
-            <div class="center_nav">
-                <ul class="d-flex align-items-center"><li ><a class="active" href="">Dashboard</a></li>
-                <li><a href="">Profile</a></li>
-                <li><a href="">Message</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Login</a></li></ul>
-            </div>
-            <div class="right_nav d-flex align-items-center">
-                <div class="group-icon d-flex">
-                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" id="IconChangeColor"> <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" id="mainIconPathAttribute" fill="#000000"></path> </svg></a>
-                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16" id="IconChangeColor"> <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" id="mainIconPathAttribute" fill="#000000"></path> </svg></a>
-                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings" id="IconChangeColor"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" id="mainIconPathAttribute"></path></svg></a>
-                </div>
-                <div class="user-section d-flex align-items-center">
-                    <div class="status-connection">online</div>
-                    <div class="profile-user">
-                        <img src="logo.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="nav_mobile">
-                <input type="checkbox" id="toggle_nav" hidden >
-                <label for="toggle_nav" class="label">
-                    <span class="line line-top">
-
-                    </span><span class="line line-mid">
-
-                    </span><span class="line line-bottom">
-
-                    </span>
-                </label>
-                
-                <ul class="list_nav_mobile">
-                    <li ><a class="active" href="">Dashboard</a></li>
-                <li><a href="">Profile</a></li>
-                <li><a href="">Message</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Login</a></li>
-                </ul>
+            <nav class="desc">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#" class="active">Register</a></li>
+            </nav>
+            <div class="nav-mobile">
+                 <input type="checkbox" name="check" id="check" hidden>
+                 <label for="check">
+                     <span class="ham first"></span>
+                     <span class="ham mid"></span>
+                     <span class="ham last"></span></label>
+                     <nav class="mob">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#" class="active">Register</a></li>
+                    </nav>
             </div>
         </div>
-    </div>
+        <div class="section-content-header">
+            <div class="left-content">
+                <h1>
+                    <span>
+                        Best Learning
+                    </span>
+                    <br>
+                    <span>Education Platform</span>
+                    <br>
+                    <span>in the world</span>
+                </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <form action="get">
+                    <input type="text" name="text" placeholder="what do you want to learn" id="">
+                    <button type="submit">search course</button>
+                </form>
+            </div>
+            <div class="right-content">
+                <img src="image/header-1.jpg" alt="">
+                <img src="image/header-2.jpg" alt="">
+                <div class="content-text">
+                    <ul>
+                        <li>get 30% off on every 1st month</li>
+                        <li>Expert teachers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
 </body>
+
 </html>
